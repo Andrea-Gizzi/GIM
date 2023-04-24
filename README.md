@@ -11,10 +11,9 @@ Esercizi di Grafica in movimento (2023)
 - [rotazione_3](Esercizio_1A/rotazione_3.html)
 - [spostamento_2](Esercizio_1A/spostamento_2.html)
 - [spostamento_3](Esercizio_1A/spostamento_3.html)  
-- [Interazione](GIM/Esercizio_1B/indexD.html) 
 
 ## Esercizio 1B
-- [Interazione](Esercizio_1B/indexD.html)  
+- [Interazione](Esercizio_1B /indexD.html) 
   
 
 # Titolo h1
