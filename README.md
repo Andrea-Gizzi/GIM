@@ -14,7 +14,8 @@ Esercizi di Grafica in movimento (2023)
 
 
 ## Esercizio 1B
-- [Interazione](Esercizio_1B/indexD.html)  
+- [Interazione](Esercizio_1B/indexD.html)    
+
 
 
 
