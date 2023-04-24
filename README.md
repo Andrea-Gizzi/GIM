@@ -1,6 +1,5 @@
 # GIM
 *Andrea Gizzi*
-
 Esercizi di Grafica in movimento (2023)
 
 ## Esercizio 1A
@@ -15,7 +14,7 @@ Esercizi di Grafica in movimento (2023)
 
 
 
-
+(text) #0969DA
 
 # Titolo h1
 ## titolo h2
