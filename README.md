@@ -13,7 +13,8 @@ Esercizi di Grafica in movimento (2023)
 - [spostamento_3](Esercizio_1A/spostamento_3.html)  
 
 ## Esercizio 1B
-- [Interazione](Esercizio_1B/indexD.html) 
+- [Interazione](Esercizio_1B/indexD.html)
+(da sistemare)
 
 # Titolo h1
 ## titolo h2
