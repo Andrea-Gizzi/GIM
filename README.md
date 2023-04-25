@@ -15,9 +15,3 @@ Esercizi di Grafica in movimento (2023)
 ## Esercizio 1B
 - [Interazione](Esercizio_1B/indexD.html)
 (da sistemare)
-
-# Titolo h1
-## titolo h2
-### titolo h3
-testo  
-[nome link](percorso/percorso.html)
