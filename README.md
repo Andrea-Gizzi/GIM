@@ -1,5 +1,5 @@
 # GIM
-*Andrea Gizzi*  
+#### *Andrea Gizzi*
 CV223.01  
 Grafica in movimento  
 Andreas Gysin  
