@@ -1,6 +1,6 @@
 # GIM
 *Andrea Gizzi*  
-Esercizi di Grafica in movimento (2023)
+Esercizi di Grafica in movimento (2023)  
 
 ## Esercizio 1A
 - [acceso_spento_2](Esercizio_1A/acceso_spento_2.html)
@@ -14,4 +14,7 @@ Esercizi di Grafica in movimento (2023)
 
 ## Esercizio 1B
 - [Interazione](Esercizio_1B/indexD.html)
-(da sistemare)
+(da sistemare)  
+
+## Esercizio 2A
+- [Forma e senso](Esercizio_2A/index.html)
