@@ -1,9 +1,9 @@
 # GIM
 *Andrea Gizzi*  
-CV223.01
-Grafica in movimento
-Andreas Gysin
-SUPSI 2022/23
+CV223.01  
+Grafica in movimento  
+Andreas Gysin  
+SUPSI 2022/23  
 
 ## Esercizio 1A
 - [acceso_spento_2](Esercizio_1A/acceso_spento_2.html)
