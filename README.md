@@ -17,7 +17,9 @@ SUPSI 2022/23
 
 ## Esercizio 1B
 - [Interazione](Esercizio_1B/indexD.html)
-(da sistemare)  
 
 ## Esercizio 2A
 - [Forma e senso](Esercizio_2A/index.html)
+
+## Esercizio 2B
+- [Movimento come forma, movimento come senso]()
