@@ -16,7 +16,7 @@ SUPSI 2022/23
 - [spostamento_3](Esercizio_1A/spostamento_3.html)  
 
 ## Esercizio 1B
-- [Interazione](Esercizio_1B/index.html)
+- [Dittico](Esercizio_1B/index.html)
 
 ## Esercizio 2A
 - [Forma e senso](Esercizio_2A/index.html)
