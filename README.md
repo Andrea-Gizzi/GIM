@@ -27,4 +27,4 @@ SUPSI 2022/23
 ## Esercizio 3
 - [Pioggia](Esercizio_3/pioggia/index.html)
 - [Neve](Esercizio_3/neve/index.html)
-- [Pong]
+- [Pong](Esercizio_3/pong/index.html)
