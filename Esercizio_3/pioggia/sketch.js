@@ -49,3 +49,5 @@ function draw() {
 
 // Esecuzione della funzione di animazione ad intervalli regolari
 setInterval(draw, 50);
+
+// Realizzato seguendo un tutorial e succesivamente aiutato da ChatGBT
