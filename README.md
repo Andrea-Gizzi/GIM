@@ -1,4 +1,4 @@
-# GIM ciao
+# GIM
 #### *Andrea Gizzi*
 CV223.01  
 Grafica in movimento  
