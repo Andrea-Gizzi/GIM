@@ -22,4 +22,4 @@ SUPSI 2022/23
 - [Forma e senso](Esercizio_2A/index.html)
 
 ## Esercizio 2B
-- [Movimento come forma, movimento come senso]()
+- [Movimento come forma, movimento come senso](Esercizio_2B/Index.html)
