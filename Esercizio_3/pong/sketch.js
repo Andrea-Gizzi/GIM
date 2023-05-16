@@ -31,6 +31,8 @@ function draw(){
 	posizioneY = posizioneY + velY
 	if (posizioneX >= width || posizioneX <= 0) velX = -velX
 	if (posizioneY >= height || posizioneY <= 0) velY = -velY
+//if (mouseClicked) rect(posizioneX, posizioneY, d, d); 
+
 }
 //chiedere come si fa mette il centro il centro del quadrato 
 
