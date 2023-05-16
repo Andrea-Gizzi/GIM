@@ -5,6 +5,7 @@ let velY
 
 function setup(){
 	createCanvas(windowWidth, windowHeight)
+	rectMode(CENTER)//punto d'ancoraggio centrato
 	posizioneX = random(width)
 	posizioneY = random(height)
 	velX = random(-10, 10)
@@ -24,18 +25,47 @@ function draw(){
 	console.log(b)
 	const d = random(10, 100)
 
+
+
 	rect(posizioneX, posizioneY, d, d)
 	rect(width - posizioneX, posizioneY, d, d)
-
+	
+	
 	posizioneX = posizioneX + velX
 	posizioneY = posizioneY + velY
 	if (posizioneX >= width || posizioneX <= 0) velX = -velX
 	if (posizioneY >= height || posizioneY <= 0) velY = -velY
-//if (mouseClicked) rect(posizioneX, posizioneY, d, d); 
-
+	if (velY == 0) velY = velY + 10 //== quando velx è nel punto 0...
+	if (velX == 0) velX = velX + 10  //= applico una misura che rispetterà
 }
-//chiedere come si fa mette il centro il centro del quadrato 
+
+
 
 function keyPressed(){
 	if (key == 's') save("pong.png") 
+	if (key == ' ') background(0)
+	//inserendo "0" background, aggiorno la pagina inserendo lo sfondo
+}
+
+
+
+function windowResized(){
+	resizeCanvas(windowWidth, windowHeight)
+	background(0)
+}
+
+function mousePressed() {
+	posizioneX = random(width)
+	posizioneY = random(height)
+	velX = random(-10, 10)
+	velY = random(-10, 10)
+	
+	posizioneX = posizioneX + velX
+	posizioneY = posizioneY + velY
+	if (posizioneX >= width || posizioneX <= 0) velX = -velX
+	if (posizioneY >= height || posizioneY <= 0) velY = -velY
+	if (velY == 0) velY = velY + 10 //== quando velx è nel punto 0...
+	if (velX == 0) velX = velX + 10  //= applico una misura che rispetterà
+	
+	rect(posizioneX, posizioneY, d, d)
 }
