@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="author" content="Nome Cognome" />
-	<title>Movimento come forma, movimento come senso</title>
+	<title>Digital communication</title>
 	<style type="text/css">
 		html{
 			height:100%;
@@ -13,25 +13,33 @@
 		}
 		canvas{
 			position:absolute;
-			left:50%;
-			top:50%;
-			margin-left: -200px;
-			margin-top: -200px;
+			margin-left: 0px;
+			margin-top: 200px;
+		}
+		#sx {
+			left: calc(50% - 220px);
+		}
+		#dx {
+			left: calc(50% + 220px);
 		}
 	</style>
 </head>
 <body>
+	<canvas id="sx" width=400 height=400></canvas>
+	<canvas id="dx" width=400 height=400></canvas>
 	<script type="module">
 
 		import Sequencer from './js/sequencer.min.js';
 
 		Sequencer.make({
-			from         	 : "img/1.png",
-			to           	 : "img/96.png",
-			playMode     	 : "auto",
-			loop         	 : "loop", // "pong"
-			interval     	 : 24,
+			canvas       	 : document.querySelector("#sx"),
+			from         	 : "img/1.jpg",
+			to           	 : "img/96.jpg",
+			direction        : "x",
+			playMode         : "hover",
+			loop         	 : "loop",
 		})
+
 	</script>
 </body>
 </html>
