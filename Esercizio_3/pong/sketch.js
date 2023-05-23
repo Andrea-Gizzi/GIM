@@ -74,3 +74,5 @@ function mousePressed() {
 	if (velX == 0) velX = velX + 10
 	rect(posizioneX, posizioneY, d, d)
 }
+
+//realizzato trammite l'esercizio svolto in atelier e poi sviluppato
