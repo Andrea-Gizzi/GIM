@@ -68,4 +68,6 @@ function mousePressed() {
 	if (velX == 0) velX = velX + 10  //= applico una misura che rispetterà
 	
 	rect(posizioneX, posizioneY, d, d)
+
+	
 }
