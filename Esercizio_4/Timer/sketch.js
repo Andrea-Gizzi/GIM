@@ -51,3 +51,5 @@ function windowResized(){
 function mousePressed() {
 	filter(INVERT) //non va?
 }
+
+// realizzato trammite l'esempio svolto in atelier e succesivamente svilluppato
