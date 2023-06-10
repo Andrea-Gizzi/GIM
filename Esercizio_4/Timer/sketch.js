@@ -1,7 +1,6 @@
 
 function setup(){
 	createCanvas(windowWidth, windowHeight)
-	let p = filter(INVERT)
 }
 
 function draw(){
@@ -21,7 +20,7 @@ function draw(){
 	const d2 = ((s/60)*245+10)
 
 	//:
-	fill(255, 255, 255, 255)
+	fill(255, 255, 255, 200)
 	text(":     :",width/4 * 2, height/2)
 	
 	if(h < 10) h = "0" + h
@@ -48,8 +47,10 @@ function windowResized(){
 	resizeCanvas(windowWidth, windowHeight)
 	background(0)
 }
-function mousePressed() {
-	filter(INVERT) //non va?
-}
 
+function keyPressed(){
+	if (key === ' ') {
+		filter(INVERT);
+	}
+}
 // realizzato trammite l'esempio svolto in atelier e succesivamente svilluppato
