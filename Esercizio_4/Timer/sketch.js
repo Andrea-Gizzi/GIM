@@ -17,9 +17,9 @@ function draw() {
   background(r, g, b);
 
   //timer
-  const d = ((h / 24) * 245 + 10);
-  const d1 = ((m / 60) * 245 + 10);
-  const d2 = ((s / 60) * 245 + 10);
+  const d = ((h / 24) * 245 + 20);
+  const d1 = ((m / 60) * 245 + 20);
+  const d2 = ((s / 60) * 245 + 20);
    
   //filtro
   if (filterActive) {
