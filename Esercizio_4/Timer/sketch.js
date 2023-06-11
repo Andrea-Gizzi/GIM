@@ -50,7 +50,6 @@ function draw() {
   text(s, width / 5 * 4, height / 2);
 
   if (h > 18 || h < 6) W = 0
-
 }
 
 function windowResized() {
@@ -58,12 +57,8 @@ function windowResized() {
   background(0);
 }
 
-function keyPressed() {
-  if (key === ' ') {
-    filterActive = !filterActive;
-  }
+function mousePressed() {
+ filterActive = !filterActive;
 }
 
-function mousePressed() {
-	text(0)
-}
+//progetto realizzato trammite la spiegazione svolta durante il corso e sperimentazione del programma con l'utilizzo di p5*js
