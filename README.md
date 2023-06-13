@@ -29,5 +29,6 @@ SUPSI 2022/23
 - [Neve](Esercizio_3/neve/index.html)
 - [Pioggia](Esercizio_3/pioggia/index.html)
 
-## Esercizio_4
+## Esercizio_4: Colorclock
+Il mondo del colore nel tempo
 - [Timer](Esercizio_4/Timer/index.html)
