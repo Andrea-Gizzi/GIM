@@ -25,9 +25,9 @@ SUPSI 2022/23
 - [Movimento come forma, movimento come senso](Esercizio_2B/Index.html)
 
 ## Esercizio_3
-- [Pioggia](Esercizio_3/pioggia/index.html)
-- [Neve](Esercizio_3/neve/index.html)
 - [Pong](Esercizio_3/pong/index.html)
+- [Neve](Esercizio_3/neve/index.html)
+- [Pioggia](Esercizio_3/pioggia/index.html)
 
 ## Esercizio_4
 - [Timer](Esercizio_4/Timer/index.html)
