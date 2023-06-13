@@ -5,7 +5,7 @@ Grafica in movimento
 Andreas Gysin  
 SUPSI 2022/23  
 
-## Esercizio 1A
+## Esercizio_1A
 - [acceso_spento_2](Esercizio_1A/acceso_spento_2.html)
 - [acceso_spento_3](Esercizio_1A/acceso_spento_3.html)
 - [aperto_chiuso_2](Esercizio_1A/aperto_chiuso_2.html)
@@ -15,19 +15,19 @@ SUPSI 2022/23
 - [spostamento_2](Esercizio_1A/spostamento_2.html)
 - [spostamento_3](Esercizio_1A/spostamento_3.html)  
 
-## Esercizio 1B
+## Esercizio_1B
 - [Dittico](Esercizio_1B/index.html)
 
-## Esercizio 2A
+## Esercizio_2A
 - [Forma e senso](Esercizio_2A/index.html)
 
-## Esercizio 2B
+## Esercizio_2B
 - [Movimento come forma, movimento come senso](Esercizio_2B/Index.html)
 
-## Esercizio 3
+## Esercizio_3
 - [Pioggia](Esercizio_3/pioggia/index.html)
 - [Neve](Esercizio_3/neve/index.html)
 - [Pong](Esercizio_3/pong/index.html)
 
-## Esercizio 4
+## Esercizio_4
 - [Timer](Esercizio_4/Timer/index.html)
