@@ -30,6 +30,6 @@ SUPSI 2022/23
 - [Pioggia](Esercizio_3/pioggia/index.html)
 
 ## Esercizio_4: Colorclock
-### Un'esplosione di sfumature temporali. 
+Un'esplosione di sfumature temporali. 
 Questo straordinario orologio trasforma il tempo in una meravigliosa variazione cromatica.
 - [Timer](Esercizio_4/Timer/index.html)
