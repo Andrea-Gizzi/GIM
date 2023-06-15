@@ -1,5 +1,4 @@
-let filterActive = false;
-let W = 255
+let W = 255;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -10,55 +9,49 @@ function draw() {
   let m = minute();
   let s = second();
 
-  //sfondo
-  const r = ((h / 24) * 255);
-  const g = ((m / 60) * 255);
-  const b = ((s / 60) * 255);
-  background(r, g, b);
+  // sfondo
+  const r = (h / 24) * 255;
+  const g = (m / 60) * 255;
+  const b = (s / 60) * 255;
+  background(r, g, b)
+  if (key == 'r') background(r, g, b);
+  if (key == 'g') background(g, b, r);
+  if (key == 'b') background(b, r, g);
 
-  //timer
-  const d = ((h / 24) * 235 + 20);
-  const d1 = ((m / 60) * 235 + 20);
-  const d2 = ((s / 60) * 235 + 20);
-   
-  //filtro
-  if (filterActive) {
-    filter(INVERT);
-  }
+  // timer
+  const d = (h / 24) * 235 + 20;
+  const d1 = (m / 60) * 235 + 20;
+  const d2 = (s / 60) * 235 + 20;
 
-  //:
-  fill(W, W, W, 200)
+  // ":"
+  fill(W, W, W, 200);
+  textSize(windowWidth / 5);
+  textFont('times');
+  textAlign(CENTER, CENTER);
   text(":     :", width / 4 * 2, height / 2);
 
   if (h < 10) h = "0" + h;
   if (m < 10) m = "0" + m;
   if (s < 10) s = "0" + s;
-  textSize(windowWidth / 5);
-  textFont('times');
-  textAlign(CENTER, CENTER);
 
-  //hour
+  // hour
   fill(W, W, W, d);
   text(h, width / 5 * 1, height / 2);
 
-  //min
+  // min
   fill(W, W, W, d1);
   text(m, width / 4 * 2, height / 2);
 
-  //sec
+  // sec
   fill(W, W, W, d2);
   text(s, width / 5 * 4, height / 2);
 
-  if (h > 18 || h < 6) W = 0
+  if (h > 18 || h < 6) W = 0;
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   background(0);
-}
-
-function mousePressed() {
- filterActive = !filterActive;
 }
 
 //progetto realizzato trammite la spiegazione svolta durante il corso e sperimentazione del programma con l'utilizzo di p5*js
