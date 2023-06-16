@@ -1,8 +1,10 @@
 let W = 255;
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
+
 
 function draw() {
   let h = hour();
@@ -48,6 +50,7 @@ function draw() {
 
   if (h > 18 || h < 6) W = 0;
 }
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
