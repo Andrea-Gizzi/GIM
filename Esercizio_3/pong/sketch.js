@@ -4,7 +4,6 @@ let velX
 let velY
 
 
-
 function setup(){
 	createCanvas(windowWidth, windowHeight)
 	rectMode(CENTER)
@@ -16,24 +15,19 @@ function setup(){
 }
 
 
-
 function draw(){
 	noStroke()
-
 
 	const r = (sin(frameCount * 0.031) + 1) * 150
 	const g = (cos(frameCount * 0.050)) * 150
 	const b = (sin(frameCount * 0.032) + 2) * 150
 	fill(r, g, b)
 
-
 	console.log(b)
 	const d = random(10, 100)
 
-
 	rect(posizioneX, posizioneY, d, d)
 	rect(width - posizioneX, posizioneY, d, d)
-	
 	
 	posizioneX = posizioneX + velX
 	posizioneY = posizioneY + velY
@@ -44,12 +38,10 @@ function draw(){
 }
 
 
-
 function keyPressed(){
 	if (key == 's') save("pong.png") 
 	if (key == ' ') background(0)
 }
-
 
 
 function windowResized(){
@@ -58,14 +50,12 @@ function windowResized(){
 }
 
 
-
 function mousePressed() {
 	posizioneX = random(width)
 	posizioneY = random(height)
 	velX = random(-10, 10)
 	velY = random(-10, 10)
 	
-
 	posizioneX = posizioneX + velX
 	posizioneY = posizioneY + velY
 	if (posizioneX >= width || posizioneX <= 0) velX = -velX
